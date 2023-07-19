@@ -67,6 +67,6 @@ Beyond that, here's a few things I would definitely do with more time:
 test without needing the sys.path.append append trick I found on Google
 - Write some tests for main.py. Testing while using stdin an stdout
 seems tricky, but a refactor would probably help with this
-- Add malfromed input handling. The project prompt said not to worry
+- Add malformed input handling. The project prompt said not to worry
 about this, so I didn't
 - Make it easier to run without piping input
