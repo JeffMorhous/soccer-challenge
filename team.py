@@ -6,7 +6,8 @@ class Team:
     def add_points(self, points):
         self.points += points
 
-    def __lt__(self, other): # Overrides < operator
+    # Overrides < operator. Solves for alphabetical if same score
+    def __lt__(self, other):
         if self.points == other.points:
             return self.name > other.name
         return self.points < other.points

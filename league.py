@@ -18,5 +18,6 @@ class League:
             self.teams[game.team1_name].add_points(1)
             self.teams[game.team2_name].add_points(1)
 
+    # Uses Team's overwritten __lt__ operator
     def get_rankings(self):
         return sorted(self.teams.values(), reverse=True)
