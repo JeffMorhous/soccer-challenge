@@ -51,4 +51,22 @@ pytest tests/test_league.py
 
 ## List of Improvements
 
-TODO:
+I spent around 3 hours on this, +/- 15 minutes.
+
+Ruby is my main language, and I have some familiarity with python but
+I'm sure there are some python conventions I might not be quite
+be adhering to in this project. The biggest thing that some extra time
+could provide is for me to learn some of those conventions and make
+sure I'm not doing anything to weird.
+
+
+Beyond that, here's a few things I would definitely do with more time:
+
+- Add a code linter for style checking (I'm sure this would help me with conventions)
+- Figue out how to get my tests to do relative imports of the class under
+test without needing the sys.path.append append trick I found on Google
+- Write some tests for main.py. Testing while using stdin an stdout
+seems tricky, but a refactor would probably help with this
+- Add malfromed input handling. The project prompt said not to worry
+about this, so I didn't
+- Make it easier to run without piping input
