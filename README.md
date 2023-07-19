@@ -36,7 +36,7 @@ you're welcome to test on another filename.
 ## Running Tests
 
 If you've already set up a virtual environment and installed
-dependencies as descriped in the "Running Locally" section,
+dependencies as described in the "Running Locally" section,
 then you can run the entire test suite with:
 
 ```bash
@@ -57,15 +57,14 @@ Ruby is my main language, and I have some familiarity with python but
 I'm sure there are some python conventions I might not be quite
 be adhering to in this project. The biggest thing that some extra time
 could provide is for me to learn some of those conventions and make
-sure I'm not doing anything to weird.
-
+sure I'm not doing anything too weird.
 
 Beyond that, here's a few things I would definitely do with more time:
 
 - Add a code linter for style checking (I'm sure this would help me with conventions)
-- Figue out how to get my tests to do relative imports of the class under
+- Figure out how to get my tests to do relative imports of the class under
 test without needing the sys.path.append append trick I found on Google
-- Write some tests for main.py. Testing while using stdin an stdout
+- Write some tests for main.py. Testing while using stdin and stdout
 seems tricky, but a refactor would probably help with this
 - Add malformed input handling. The project prompt said not to worry
 about this, so I didn't
